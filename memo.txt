@@ -1,0 +1,8 @@
+npm은 패키지매니저이다
+git remote add origin github.url
+dependencies : 필요한 패키지. 모듈을 설치해준다
+babel nodemon 설치
+
+babel문법사용중
+nodejs로 실행안하고 babel-node로 실행중
+nodemon : 자동재시작

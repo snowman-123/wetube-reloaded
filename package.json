@@ -1,0 +1,27 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "aa",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowman-123/wetube-reloaded.git"
+  },
+  "author": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowman-123/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/snowman-123/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
