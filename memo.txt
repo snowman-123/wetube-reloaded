@@ -6,3 +6,5 @@ babel nodemon 설치
 babel문법사용중
 nodejs로 실행안하고 babel-node로 실행중
 nodemon : 자동재시작
+
+test1
