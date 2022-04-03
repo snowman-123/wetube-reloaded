@@ -7,4 +7,8 @@ babel문법사용중
 nodejs로 실행안하고 babel-node로 실행중
 nodemon : 자동재시작
 
-middleware next().
+middleware next()
+
+모듈
+import export
+default export
