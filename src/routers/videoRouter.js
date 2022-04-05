@@ -1,8 +1,11 @@
 import express from "express";
-export default videoRouter;
+import { see, edit, upload, deleteVideo } from "../controllers/videoController";
 
 const videoRouter = express.Router();
 
-const handleWatchVideo = (req, res) => res.send("Watch Video");
+videoRouter.get("/upload", upload); //upload를 :id로 볼 수도 있어서 순서가 중요하다
+videoRouter.get("/:id(\\d+)", see);
+videoRouter.get("/:id(\\d+)/edit", edit);
+videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 
-videoRouter.get("/watch", handleWatchVideo);
+export default videoRouter;
