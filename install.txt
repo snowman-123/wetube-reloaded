@@ -6,8 +6,9 @@ git pull origin test1
 push
 git push --set-upstream origin test1
 
-
-
 npm i
 npm i @babel/node -g
 npm run dev
+
+
+pug

@@ -21,3 +21,5 @@ ab?cd b는 optinal
 ab+cd b는 많아도됨
 ab*cd bc사이에 뭐든가능
 ab(cd)?e cd=optinal
+
+렌더링은 컨트롤러가 한다.
