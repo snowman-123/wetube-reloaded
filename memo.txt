@@ -16,10 +16,27 @@ default export
 라우터, 컨트롤러
 /:variable
 
-정규식
+정규식 https://velog.io/@jangws/JS-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%ED%8A%B9%EC%88%98%EB%AC%B8%EC%9E%90-%EC%88%AB%EC%9E%90-%EB%93%B1-6766k8d6
 ab?cd b는 optinal
 ab+cd b는 많아도됨
 ab*cd bc사이에 뭐든가능
 ab(cd)?e cd=optinal
+\d 숫자하나만찾기
++는 연결된 
+\d+ = 연결된 숫자
+* 0개이상의
+\d+ 숫자가 0개이상
+전화번호 > \d{2,3}[ -]?\d{3,4}[ -]?\d{4}$
+이메일
+/^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i
 
 렌더링은 컨트롤러가 한다.
+
+controller.js
+res.render()
+
+Router.js
+
+
+server.js
+app.use() : 경로인식 미들웨어

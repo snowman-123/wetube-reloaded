@@ -7,11 +7,11 @@ import userRouter from "./routers/userRouter";
 const PORT = 4000;
 
 const app = express();
-const logger = morgan("dev");
+const logger = morgan("dev"); //로그를 남기는 모듈
 
 
 app.set("view engine","pug");
-app.set("views",process.cwd()+"/src/views");
+app.set("views",process.cwd()+"/src/views"); //현재작업디렉토리+/src/view
 
 app.use(logger);
 app.use("/", globalRouter); 
