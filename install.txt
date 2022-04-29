@@ -4,6 +4,7 @@ git remote add origin url
 git pull origin test1
 
 push
+git push origin matser
 git push --set-upstream origin test1
 
 npm i

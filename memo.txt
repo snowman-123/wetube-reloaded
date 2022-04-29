@@ -36,7 +36,12 @@ controller.js
 res.render()
 
 Router.js
-
+get~~
 
 server.js
 app.use() : 경로인식 미들웨어
+
+GET = 데이터 받기
+POST = 데이터 생성, update
+
+/:id(\\d+)
