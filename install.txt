@@ -11,4 +11,5 @@ npm i @babel/node -g
 npm run dev
 
 
-pug
+pug, chocolatery, mongoose, mongodb
+npm i mongoose
