@@ -45,3 +45,8 @@ GET = 데이터 받기
 POST = 데이터 생성, update
 
 /:id(\\d+)
+
+callback(동기) vs async(비동기), await
+split().map(word => `#${word}`)
+
+save 방식, create방식
