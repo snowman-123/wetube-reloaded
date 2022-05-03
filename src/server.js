@@ -7,7 +7,6 @@ import userRouter from "./routers/userRouter";
 const app = express();
 const logger = morgan("dev"); //로그를 남기는 모듈
 
-
 app.set("view engine","pug");
 app.set("views",process.cwd()+"/src/views"); //현재작업디렉토리+/src/view
 
